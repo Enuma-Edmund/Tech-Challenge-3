@@ -1,0 +1,28 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+.terraform.lock.hcl
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# SSH/private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+tech-challenge-3
+
+# Ansible temporary files
+*.retry
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
